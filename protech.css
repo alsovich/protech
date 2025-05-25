@@ -1,0 +1,34 @@
+.parent{
+    position: relative;
+}
+
+.yellow{
+    background-image: url(/png/image.png);
+    width: 310px;
+    height: 374px;
+    background-size: contain;
+    margin: 100px auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.two{
+    
+}
+
+.three{
+    background-image: url(/png/bro.png);
+    background-size: contain;
+    width: 311px;
+    height: 334px;
+    position: absolute;
+}
+
+.fo{
+    background-image: url(/png/broone.png);
+    background-size: contain;
+    width: 225px;
+    height: 299px;
+    position: absolute;
+}
