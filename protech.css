@@ -1,34 +1,80 @@
-.parent{
-    position: relative;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
 }
 
-.yellow{
-    background-image: url(/png/image.png);
-    width: 310px;
-    height: 374px;
-    background-size: contain;
-    margin: 100px auto;
-    position: absolute;
-    top: 40%;
-    left: 50%;
+body{
+    font-family: "Roboto", sans-serif; 
+    margin: 0px;
 }
 
-.two{
-    
+header{
+    background-color: #701A75;
+    padding: 24px 80px;
+    width: 100%;
 }
 
-.three{
-    background-image: url(/png/bro.png);
-    background-size: contain;
-    width: 311px;
-    height: 334px;
-    position: absolute;
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /*повторить залупу с шириной*/
+    max-width: 1440px;
 }
 
-.fo{
-    background-image: url(/png/broone.png);
-    background-size: contain;
-    width: 225px;
-    height: 299px;
-    position: absolute;
+.logoandsvg{
+    display: flex;
+}
+
+.logoandsvg img{
+    width: 21.028px;
+    height: 32px;
+}
+
+.logoandsvg div{
+    color: white;
+    font-size: 32px;
+    font-style: normal; /*че такое фонт стайл и лайн хеит*/
+    font-weight: 700;
+    line-height: 110%; 
+}
+
+nav{
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > div{
+    display: flex;
+    gap: 8px;
+}
+
+nav > div img{
+    width: 24px;
+    height: 24px;
+}
+
+button{
+    all: unset;
+    cursor: pointer; /*эту тему тоже разобрать а не списывать с gpt*/
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #701A75;
+    color: white;
+    padding: 16px 12px;
+    border: 10px;
+    border-color: black;
+    border-radius: 8px;
 }
