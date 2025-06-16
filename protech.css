@@ -175,3 +175,36 @@ button { all: unset; }
     max-height: 46px;
 }
 
+.two{
+    width: 265px;
+    border: 3px solid #0F172A;
+    border-radius: 10px;
+}
+
+.two__p-one{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: #1E40AF;
+    background-color: #DBEAFE;
+    width: 57px;
+    margin: 16px 16px;
+}
+
+.two__p-two{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    margin: 16px 16px;
+}
+
+.two__p-three{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin: 8px 16px;
+    color: #475569;
+}
